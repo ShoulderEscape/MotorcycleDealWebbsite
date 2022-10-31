@@ -1,0 +1,74 @@
+<!--
+Created by: Axel Flyckt
+Made in: 2021-02-09
+The purpose of this file is to create the kontakt page in Shoulder's Motorcykel Dealership
+-->
+<!DOCTYPE html>
+<html>
+    <!--
+        Title
+    -->
+    <head>
+        <title>Shoulder's Motorcykel Dealership</title>
+        <link rel="stylesheet" href="Style.css">
+        <link rel="stylesheet" href="KontaktStyle.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    </head>
+    <body>
+        <header>
+            <img src="Images/Logo.PNG" width="100">
+            <h1> Shoulder's Motorcykel Dealership </h1>
+        </header>
+
+        <!--
+            Menu
+        -->
+        <table>
+            <tr>
+            <td><a href="http://127.0.0.1:5500/index.html">Startsida</a></td>
+            <td>
+                <div class="dropdown">
+                    <div>Produkter</div>
+                    <div class=dropdown-content>
+                        <p><a href="Produkter.html#Honda">Honda CB 650F</a></p>
+                        <hr>
+                        <p><a href="Produkter.html#Herald">Herald 125</a></p>
+                        <hr>
+                        <p><a href="Produkter.html#Kawasaki">Kawasaki EX500A1</a></p>
+                    </div>
+                </div>
+            </td>           
+            <td><a href="Kontakt.html">Kontakt</a></td>
+            </tr>
+            </table>
+
+            <!--
+                Mail
+            -->
+        <p id=Contact>Contact: <a href="mailto:axelflyckt00@gmail.com">Axel Flyckt</p>
+            <!--
+                Questioneer
+            -->
+        <p><h2>Questioneer:</h2></p>
+        <label>Your Email:</label><br>
+        <input type="text"><br>
+        <p></p>
+        <div class="dropdown-kontakt">
+            <!--
+                Arrow delen taget ifrån https://www.w3schools.com/howto/howto_css_arrows.asp 
+            -->
+            <span>Problem type: <i class="arrow down"></i></span>
+            <div class=dropdown-content-kontakt>
+                <p>Delivery <input type="checkbox"></p>
+                <hr>
+                <p>Vehicle state <input type="checkbox"></p>
+                <hr>
+                <p>General question <input type="checkbox"></p>
+            </div>
+        </div>
+        <p>Message to us:</p>
+        <textarea rows="5" cols ="80"></textarea>
+        <p></p>
+        <input type="submit" value="Submit">
+</html>

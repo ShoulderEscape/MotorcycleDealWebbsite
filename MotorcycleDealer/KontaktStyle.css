@@ -1,0 +1,54 @@
+/*
+Created by: Axel Flyckt
+Made in: 2021-02-09
+The purpose of this file is to provide the styling Kontakt.html
+*/
+
+
+/* For new color of link here, instead of at line 26 on Style.css*/
+#Contact > a {
+    color : blue;
+}
+#Contact {
+    font-size : 2rem;
+}
+/* Designing the dropdown starter */
+span{
+    border: 1px black;
+    background-color: #0C4A5B;
+}
+/* Dropdown menu */
+.dropdown-kontakt {
+    position: relative;
+    display: inline-block;
+    margin: 0%;
+    padding: 0%;
+
+}
+.dropdown-content-kontakt {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    background-color: #0C4A5B;
+    margin: 0%;
+    padding: 0%;
+}
+.dropdown-kontakt:hover .dropdown-content-kontakt {
+    display: block;
+}
+
+/* Taget från https://www.w3schools.com/howto/howto_css_arrows.asp */
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    margin:5px;
+    padding: 4px;
+  }
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }

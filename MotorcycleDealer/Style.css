@@ -1,0 +1,94 @@
+/*
+Created by: Axel Flyckt
+Made in: 2021-02-09
+The purpose of this file is to provide the styling elements in these three files:
+    -index.html
+    -Produkter.html
+    -Kontakt.html
+*/
+
+* {
+    box-sizing : content-box;
+}
+body {
+    font-family : Times;
+    background-color : #D3E0EA;    
+}
+html {
+    font-size : 24px;
+}
+/* How links should look */
+a {
+    color : black;
+    text-decoration : none;
+}
+
+/* Company name */
+h1 {
+    background-color : #0C4A5B;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position : absolute;
+    color: #222831;
+    text-shadow: 5px 1px black;
+    padding: 50px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    top : 0%;
+    left : 7%;
+    border-radius: 25px;
+}
+/* Generall table specifications */
+table {
+    width:100%; 
+    margin: none;
+    padding: none;
+    background-color : #276678;
+    color : black;
+    text-align : center;
+    text-decoration : none;    
+    table-layout: fixed;
+}
+table {
+    border :  2px black solid !important;
+
+}
+
+/* Menu for the different pages */
+#Menu {
+    text-align : center;
+    display : inline;
+    list-style-type : none;
+    border : #000 solid 1px;
+    border-radius: 20%;
+    margin : 0px;
+    padding : 2px;
+    width: 100%;
+}
+hr {
+    border : black solid 1px;
+}
+/* Dropdown menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    border: 3px black;
+
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 400%;
+    padding: 12px 16px;
+    z-index: 2;
+    text-align: center;
+    align-content: center;
+    right: -160px;
+    border: 3px black;
+    background-color: #0C4A5B;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+

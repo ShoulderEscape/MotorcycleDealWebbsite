@@ -1,0 +1,45 @@
+/*
+Created by: Axel Flyckt
+Made in: 2021-02-09
+The purpose of this file is to provide the styling Produkter.html
+*/
+body>div{
+    display: flex;
+    flex-direction: column;
+}
+/* For table with information */
+#mcinfo{
+    width: 50%;
+    border : black solid 3px;
+    padding: 25px;
+    margin: 0%;
+    
+}
+/* For the images of the produkts */
+div>img {
+    position : relative;
+    border : black solid 3px;
+    border-bottom: none;
+}
+/* For the text in the produkts */
+span {
+    position : relative;
+    border : black solid 3px;
+    display: flex;
+    margin: 0px;
+    padding: 25px;
+    text-align: left;
+    width: 50%;
+}
+/* For the title of all the produkts */
+h2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-right: 50%;
+    text-align: center;
+    color: #222831;
+    text-shadow: 4px 1px black;
+    font-size: 1.8rem;
+    background-color : #0C4A5B;
+    border-radius: 25px;
+    border: black 3px;
+}

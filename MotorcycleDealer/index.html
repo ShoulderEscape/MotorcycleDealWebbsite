@@ -1,0 +1,113 @@
+<!--
+Created by: Axel Flyckt
+Made in: 2021-02-09
+The purpose of this file is to create the home page in Shoulder's Motorcykel Dealership
+-->
+<!DOCTYPE html>
+<html>
+    <!--
+        Title
+    -->
+    <head>
+        <title>Shoulder's Motorcykel Dealership</title>
+        <link rel="stylesheet" href="Style.css">
+        <link rel="stylesheet" href="IndexStyle.css">
+
+    </head>
+    <body>
+        <header>
+            <img src="Images/Logo.PNG" width="100">
+            <h1> <bold><italic>Shoulder's Motorcykel Dealership</bold> </h1>
+        </header>
+
+        <!--
+            Menu
+        -->
+        <nav>
+            <table>
+                <tr>
+                <td><a href="index.html">Startsida</a></td>
+                <!--<td><a href="http://127.0.0.1:5500/Produkter.html">Produkter</a></td>--->
+                <td>
+                    <div class="dropdown">
+                        <div>Produkter</div>
+                        <div class=dropdown-content>
+                            <p><a href="Produkter.html#Honda">Honda CB 650F</a></p>
+                            <hr>
+                            <p><a href="Produkter.html#Herald">Herald 125</a></p>
+                            <hr>
+                            <p><a href="Produkter.html#Kawasaki">Kawasaki EX500A1</a></p>
+                        </div>
+                    </div>
+                </td>
+                <td><a href="Kontakt.html">Kontakt</a></td>
+                </tr>
+                    </table>
+            <!--
+                Google maps
+            -->
+            <main>
+                <!--
+                    Motorcykel list
+                -->
+                <ul>
+                    <li>
+                        <p><h2>Produkter</h2></p>
+                    </li>
+                    <li>
+                        <hr>
+        
+                        <p><h4>Honda CB 650F</h4></p>
+                        <p>Cost:88 000 kr</p>
+                        <a href="Produkter.html#Honda">
+                            <img src="Images/Motorcykel 1.jpg" width="500">
+                            <!--Image Link: https://commons.wikimedia.org/wiki/File:Honda_CB_650_F.jpg -->
+                        </a>
+        
+                    </li>
+                    <li>
+                        <hr>
+        
+                        <p><h4>Herald 125</h4></p>
+                        <p>Cost:22 900 kr</p>
+                        <a href="Produkter.html#Herald">
+                            <img src="Images/Motorcykel 2.jpg" width="500">
+                            <!--Image Link: https://www.visordown.com/reviews/first-ride/smoking-arrows-husqvarna-401-roadsters-ridden -->
+                        </a>
+                        
+                    </li>
+                    <li>
+                        <hr>
+        
+                        <p><h4>Kawasaki EX500A1</h4></p>
+                        <p>Cost: 32 990 kr</p>
+                        <a href="Produkter.html#Kawasaki">
+                            <img src="Images/Motorcykel 3.jpg" width="500">
+                            <!-- Image Link: https://commons.wikimedia.org/wiki/File:Dk001_Gpz500.JPG -->
+                        </a>
+                        
+                    </li>
+                </ul>
+            </main>
+        </nav>
+
+        <aside>
+            <div>
+                <p><h3>Butiksplats:</h3></p>
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2030.599046792978!2d13.580393951842536!3d59.406401711792476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465cb12dfeb2f6e3%3A0x4d3afe475254bf1e!2sKarlstads%20Universitet!5e0!3m2!1ssv!2sse!4v1611925306999!5m2!1ssv!2sse" 
+                    width="500px" 
+                    height="500px" 
+                    frameborder="0" 
+                    allowfullscreen="" 
+                    aria-hidden="false" 
+                    tabindex="0">
+                </iframe>
+            </div>
+            <p>Om du vill ha leverans så kostar det 500kr extra</p>
+
+        </aside>
+
+         
+    </body>
+</html>
